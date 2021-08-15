@@ -53,7 +53,7 @@ pidfile="${lxc_directory}/var/run/sshd.pid"
       </bridges>
       <containers>
         <container lxc_name="helper" lxc_indices="201" template="node"/>
-        <container lxc_name="node-${'%03d' % lxc_index}" lxc_indices="1-10" template="node"/>
+        <container lxc_name="node-${'%03d' % lxc_index}" lxc_indices="1-2" template="node"/>
       </containers>
     </host>
   </hosts>
