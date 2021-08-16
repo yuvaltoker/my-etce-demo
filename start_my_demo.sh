@@ -32,7 +32,7 @@
 #
 
 
-usage="usage: start_demo.sh [-e ENVFILE] [-c CONFIGFILE] [-p SSHPORT] [-k SSHKEYFILE] SSHUSER DEMODIR"
+usage="usage: start_my_demo.sh [-e ENVFILE] [-c CONFIGFILE] [-p SSHPORT] [-k SSHKEYFILE] SSHUSER DEMODIR"
 
 envfile=/dev/null
 
